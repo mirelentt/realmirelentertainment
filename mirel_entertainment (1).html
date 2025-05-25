@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mirel Entertainment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e90ff, #ff7f50);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 30px auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+    }
+    h1, h2, h3 {
+      margin-bottom: 20px;
+    }
+    .group-preview {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .group-card {
+      background: rgba(0,0,0,0.4);
+      border-radius: 10px;
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px #ff7f50;
+      transition: transform 0.3s ease;
+    }
+    .group-card:hover {
+      transform: scale(1.05);
+    }
+    .group-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      object-fit: cover;
+      height: 180px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    #idoller ul {
+      margin-bottom: 30px;
+    }
+    #idoller li {
+      font-weight: normal;
+      margin-bottom: 6px;
+    }
+    img.hakkimizda-img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 8px;
+    }
+    form label {
+      font-weight: bold;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: none;
+    }
+    form input[type="submit"] {
+      background-color: #ff7f50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border: none;
+    }
+    form input[type="submit"]:hover {
+      background-color: #1e90ff;
+    }
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #ff7f50;
+    }
+    footer.footer {
+      text-align: center;
+      padding: 15px;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mirel Entertainment</h1>
+    <nav>
+      <a href="#gruplar">Gruplar</a>
+      <a href="#idoller">İdoller</a>
+      <a href="#projeler">Projeler</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <section id="gruplar">
+    <h2>Gruplarımız</h2>
+    <div class="group-preview">
+      <div class="group-card">
+        <img src="https://i.pinimg.com/originals/f2/b6/0f/f2b60f8f85e3f5f7ef86cc6b5f1fa525.jpg" alt="CLOUDY" />
+        <h3>CLOUDY</h3>
+        <p>BLACKPINK temsilcisi, güçlü ve yetenekli bir grup.</p>
+      </div>
+      <div class="group-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Aespa_logo.svg" alt="PSYCHO" style="background: white; padding: 20px;" />
+        <h3>PSYCHO</h3>
+        <p>AESPA temsilcisi, dinamik ve çarpıcı performanslar.</p>
+      </div>
+      <div class="group-card">
+        <img src="https://i.imgur.com/cwzV3K8.png" alt="INSPIRE" />
+        <h3>INSPIRE</h3>
+        <p>ILLIT temsilcisi, yenilikçi ve enerjik bir grup.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="idoller">
+    <h2>İdoller</h2>
+
+    <h3>CLOUDY</h3>
+    <ul>
+      <li>Eunju – All rounder (Lisa)</li>
+      <li>Flor – All rounder (Jennie)</li>
+      <li>Amelia – All rounder (Rosé)</li>
+      <li>Sooyas – Lead vocal (Jisoo)</li>
+    </ul>
+
+    <h3>PSYCHO</h3>
+    <ul>
+      <li>Reina – All rounder (Karina)</li>
+      <li>Hei – All rounder (Giselle)</li>
+      <li>Sia – Lead vocal (Ningning)</li>
+      <li>Jaeyi – All rounder (Winter)</li>
+    </ul>
+
+    <h3>INSPIRE</h3>
+    <ul>
+      <li>Via – Lead vocal (Yunah)</li>
+      <li>Lise – All rounder (Minju)</li>
+      <li>Somin – Lead vocal (Moka)</li>
+      <li>Rei – Lead vocal (Woonhe)</li>
+      <li>Sunhee – All rounder (İroha)</li>
+    </ul>
+
+    <h3>Solo İdoller</h3>
+    <ul>
+      <li>Dae – Rapper (Doja Cat)</li>
+      <li>Celosia – All rounder (CL)</li>
+      <li>Keiko – All rounder (Maya)</li>
+      <li>Yunseo – Vocal (Haerin)</li>
+      <li>Shin – All rounder (Yeji)</li>
+      <li>Akane – All rounder (Aisha)</li>
+    </ul>
+  </section>
+
+  <section id="projeler">
+    <h2>Projeler</h2>
+
+    <article>
+      <h3>PSYCHO - Drama Mv</h3>
+      <p>Coming Soon</p>
+    </article>
+
+    <article>
+      <h3>INSPIRE - Cherish Mv</h3>
+      <p>Coming Soon</p>
+    </article>
+
+    <article>
+      <h3>New Auditions</h3>
+      <p>Coming Soon</p>
+    </article>
+  </section>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Chae-won_2020.png" alt="Chaewon" class="hakkimizda-img" />
+    <p>
+      Mirel Entertainment, 2021 yılında kurulmuş sanal bir K-pop şirketidir.<br />
+      Bünyesinde sayısız idol barındırmaktadır ve idollerini özenle seçmektedir.<br />
+      Çalışanlara çok değer verir.<br />
+      Şirketin bir kurucusu vardır; Aisshia ve şirketi tek yönetmektedir.
+    </p>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>Instagram: <a href="https://instagram.com/realmirelentertainment" target="_blank">@realmirelentertainment</a></p>
+    <p>Email: <a href="mailto:pikuteamm@gmail.com">pikuteamm@gmail.com</a></p>
+
+    <h3>Bize Mesaj Gönder</h3>
+    <form action="mailto:pikuteamm@gmail.com" method="post" enctype="text/plain">
+      <label for="name">İsim:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Mesajınız:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Gönder" />
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Mirel Entertainment. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
